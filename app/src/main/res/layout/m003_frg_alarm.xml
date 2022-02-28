@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".M001ActMenu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/margin_l_20"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/txt_wakeup"
+            android:textSize="@dimen/size_lg"
+            android:textColor="@color/orange_500"
+            android:fontFamily="sans-serif-light"/>
+
+
+        <EditText
+            android:id="@+id/et_msg_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="@dimen/margin_s_10"
+
+            android:gravity="start"
+            android:background="@color/orange_500"
+            android:clickable="true"
+            android:focusable="true"
+
+
+            android:hint="@string/txt_message"
+            android:padding="@dimen/padding_m_15"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/size_m"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tv_date_time_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/gray_light"
+            android:clickable="true"
+            android:focusable="true"
+
+            android:padding="@dimen/padding_s_10"
+            android:text="@string/txt_time"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/size_m" />
+
+        <Button
+            android:id="@+id/btn_setup_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/margin_s_10"
+
+            android:backgroundTint="@color/orange_700"
+            android:padding="@dimen/padding_s_10"
+
+            android:text="@string/txt_setup"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_m" />
+
+    </LinearLayout>
+</LinearLayout>

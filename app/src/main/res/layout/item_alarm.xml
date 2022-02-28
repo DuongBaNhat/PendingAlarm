@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/padding_s_10"
+    android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_radius"
+                android:padding="@dimen/padding_ss_5"
+                android:src="@drawable/ic_calendar"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_s_10"
+
+                android:ellipsize="end"
+                android:text="@string/txt_title"
+                android:textColor="@color/orange_700"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/size_l"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_time_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/txt_time"
+                android:textColor="@color/orange_500"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/size_m"/>
+
+            <ImageView
+                android:id="@+id/iv_item"
+                android:layout_width="56dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="@dimen/padding_s_10"
+                android:background="@color/orange_500"
+                tools:ignore="ContentDescription" />
+
+        </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_light"/>
+
+</LinearLayout>

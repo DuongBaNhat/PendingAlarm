@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/drawable-v24/bg_radius.xml" value="0.28229166666666666" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/drawable-v24/ic_alarm_24.xml" value="0.28229166666666666" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/drawable-v24/ic_menu_close_24.xml" value="0.234375" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/actionbar_home.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/activity_main.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/item_alarm.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m001_act_menu.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m002_frg_sms.xml" value="0.25" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m003_frg_alarm.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m004_frg_phone.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m005_frg_list_alarm.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m006_act_alarm.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/m006_frg_alarm.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/view_alarm.xml" value="0.26614583333333336" />
+        <entry key="..\:/BaNhat/PRM391x/Assignment/Assignment3/PendingAlarm/app/src/main/res/layout/view_dialog.xml" value="0.22314814814814815" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

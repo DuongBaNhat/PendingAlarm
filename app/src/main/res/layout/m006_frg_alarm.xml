@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_s_10"
+        android:gravity="center"
+        android:text="@string/txt_title"
+        android:textColor="@color/orange_700"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/size_l"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/red_500"
+
+        android:text="@string/txt_stop"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/size_l"
+        android:textStyle="bold"
+
+        android:layout_marginHorizontal="@dimen/size_m"/>
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/purple_700"
+
+        android:text="@string/txt_done"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/size_l"
+        android:textStyle="bold"
+
+        android:layout_marginHorizontal="@dimen/size_m"
+        android:layout_marginBottom="@dimen/margin_lg_25"/>
+
+
+</LinearLayout>

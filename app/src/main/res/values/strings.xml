@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pending Alarm</string>
+
+    <string name="txt_call">Call to</string>
+    <string name="txt_alarm">Alarm</string>
+    <string name="txt_message">Message</string>
+    <string name="txt_sender">Sender</string>
+    <string name="txt_setup">Setup</string>
+
+    <string name="txt_time">Date time</string>
+    <string name="permission">Please allow permission for using it</string>
+    <string name="txt_wakeup">Wakeup me!</string>
+
+    <!--    Text menu-->
+    <string name="txt_plan">I have a plane:)</string>
+    <string name="txt_make_sms">Make a pending SMS</string>
+    <string name="txt_make_call">Make a pending CALL</string>
+    <string name="txt_make_alarm">Make an ALARM</string>
+
+    <!--    Text actionbar-->
+    <string name="txt_action_sms">SMS Scheduler</string>
+    <string name="txt_action_alarm">Alarm</string>
+    <string name="txt_action_phone">Pending Call</string>
+    <!--    Drawer-->
+    <string name="txt_open_drawer">Open drawer</string>
+    <string name="txt_close_drawer">Close drawer</string>
+    <string name="txt_hello">Have a nice day !</string>
+    <string name="txt_stop">Stop</string>
+    <string name="txt_title">Exercise</string>
+    <string name="wake_up_and_run_5km_around_the_park">Wake up and run 5km around the park !</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_remove">Remove</string>
+</resources>

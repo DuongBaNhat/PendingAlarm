@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange_500"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+
+        app:layout_constraintEnd_toStartOf="@id/iv_add_alarm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="@dimen/padding_s_10"
+            android:src="@drawable/ic_menu_close_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="sans-serif"
+            android:text="@string/txt_action_sms"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_m"
+            android:textStyle="bold"
+            android:enabled="true"
+            android:focusable="true"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_add_alarm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="@dimen/margin_s_10"
+        android:visibility="gone"
+
+        android:padding="@dimen/padding_ss_5"
+        android:src="@drawable/ic_add_alarm_24"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

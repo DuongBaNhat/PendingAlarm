@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".M001ActMenu">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_l_20"
+
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/orange_700">
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_settings_call_24"
+            android:padding="@dimen/padding_s_10"/>
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/orange_700"
+            android:paddingVertical="@dimen/padding_m_15"
+
+            android:hint="@string/txt_sender"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_m"
+            android:inputType="number"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+    </TableRow>
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/margin_ss_5"
+
+        android:background="@color/orange_200"
+        android:gravity="top"
+        android:padding="@dimen/padding_s_10"
+
+
+        android:hint="@string/txt_message"
+        android:textColorHint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_m"
+        android:fontFamily="sans-serif-light"/>
+
+
+    <TextView
+        android:id="@+id/tv_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="@dimen/padding_s_10"
+        android:background="@color/gray_light"
+        android:defaultFocusHighlightEnabled="true"
+
+
+        android:hint="@string/txt_time"
+        android:inputType="number"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+
+
+        android:textSize="@dimen/size_m"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/bt_setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/orange_500"
+        android:padding="@dimen/padding_s_10"
+
+        android:text="@string/txt_setup"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_m"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
+
+
+
+</LinearLayout>

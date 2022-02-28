@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_title"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/size_l"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_s_10"/>
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="@dimen/padding_s_10"
+        android:text="@string/wake_up_and_run_5km_around_the_park"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_s"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_ss_5"
+        android:layout_marginEnd="@dimen/margin_s_10"
+        android:gravity="end">
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/orange_500"
+            android:text="@string/txt_done"
+            android:textSize="@dimen/size_m"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btn_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_s_10"
+            android:backgroundTint="@color/red_500"
+            android:textSize="@dimen/size_m"
+            android:text="@string/txt_remove"/>
+    </TableRow>
+
+
+</LinearLayout>
